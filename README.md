@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 This project investigates the use of **chaotic dynamical systems** as feature generators for **machine learning–driven trading strategies** on highly volatile assets (BTC, ETH, SHIB).  
-By simulating deterministic yet unpredictable trajectories from well-known chaotic systems — **Lorenz**, **Lorenz–Stenflo**, and **Rikitake** — and calibrating them to match statistical and dynamical properties of real financial markets, we aim to test whether chaos-based features can improve predictive power and trading robustness.
+By simulating deterministic yet unpredictable trajectories from well-known chaotic systems, **Lorenz**, **Lorenz–Stenflo**, and **Rikitake**, and calibrating them to match statistical and dynamical properties of real financial markets, we aim to test whether chaos-based features can improve predictive power and trading robustness.
 
 The core idea: **use chaos as a structured source of complexity** to extract meaningful non-linear features, train ML/DL models, and backtest algorithmic trading strategies.
 
