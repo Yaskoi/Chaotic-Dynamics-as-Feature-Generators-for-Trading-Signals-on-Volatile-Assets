@@ -26,7 +26,7 @@ The core idea: **use chaos as a structured source of complexity** to extract mea
 - Normalization and optional PCA/ICA dimensionality reduction
 
 ### 3. **Market Data Preparation**
-- Collect and clean **1 year of BTC, 1 year of ETH, 1 year of SHIB** (1-min market data)
+- Collect and clean **1 year of BTC, 1 year of ETH (1-min market data)
 - Compute log returns, realized volatility, additional market features
 - Synchronize chaos-based features with market timestamps
 
@@ -47,11 +47,9 @@ The core idea: **use chaos as a structured source of complexity** to extract mea
 
 ## 📂 Repository Structure
 project_root/  
-├── data/  
-│ ├── btc/  
-│ │ └── btc_1h_2023_2024.csv  
-│ ├── eth/  
-│ │ └── eth_1h_2023_2024.csv   
+├── data/    
+│ └── btc_1m_2024.csv  
+│ └── eth_1m_2023_2024.csv   
 │ └── chaotic_signals/  
 │ ├── lorenz_xyz.csv  
 │ ├── stenflo_xyz.csv  
