@@ -4,7 +4,7 @@
 
 This project investigates whether the price fluctuations of major cryptocurrency
 assets (BTC, ETH) exhibit signatures consistent with low-dimensional chaotic
-deterministic dynamics — and whether this structure can be exploited for
+deterministic dynamics and whether this structure can be exploited for
 short-horizon prediction.
 
 Chaotic systems are treated as **theoretical references** here: Lorenz, Lorenz–Stenflo, and Rikitake are simulated,
