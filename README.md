@@ -7,10 +7,8 @@ assets (BTC, ETH) exhibit signatures consistent with low-dimensional chaotic
 deterministic dynamics — and whether this structure can be exploited for
 short-horizon prediction.
 
-Rather than using chaotic systems as synthetic feature generators, we treat them
-as **theoretical references**: Lorenz, Lorenz–Stenflo, and Rikitake are simulated,
-characterised, and used as benchmarks against which the empirical dynamics of
-crypto markets are measured.
+Chaotic systems are treated as **theoretical references** here: Lorenz, Lorenz–Stenflo, and Rikitake are simulated,
+characterised, and used as benchmarks against which the empirical dynamics of crypto markets are measured.
 
 The core pipeline moves from **theory → empirical characterisation → prediction**:
 1. Simulate and characterise known chaotic systems (λ₁, D₂, Fourier spectrum)
@@ -25,8 +23,7 @@ The core pipeline moves from **theory → empirical characterisation → predict
 
 ### 1. Chaotic System Simulation
 - Lorenz, Lorenz–Stenflo, Rikitake — ODE simulation (Euler method)
-- Calibration: largest Lyapunov exponent (λ₁), correlation dimension (D₂),
-  Fourier power spectrum
+- Calibration: largest Lyapunov exponent (λ₁), correlation dimension (D₂), Fourier power spectrum
 - Constitutes the **theoretical reference table** for comparison
 
 ### 2. Phase-Space Reconstruction (Takens Embedding)
